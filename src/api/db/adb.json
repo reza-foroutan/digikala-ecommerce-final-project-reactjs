@@ -1,0 +1,44 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "name": "image-placeholder",
+      "type": "image-notFound",
+      "imageUrlSvg": "https://nexuhaven-statics-public.nexuhaven.com/digikala-ecommerce-final-project-reactjs/assets/images/svg/image-placeholder.svg",
+      "imageUrlPng": "https://nexuhaven-statics-public.nexuhaven.com/digikala-ecommerce-final-project-reactjs/assets/images/svg/image-placeholder.svg",
+      "imageUrlWebp": "https://nexuhaven-statics-public.nexuhaven.com/digikala-ecommerce-final-project-reactjs/assets/images/svg/image-placeholder.svg",
+      "imageUrlGif": "https://nexuhaven-statics-public.nexuhaven.com/digikala-ecommerce-final-project-reactjs/assets/images/svg/image-placeholder.svg",
+      "imageUrlJPEG": "",
+      "alt": "",
+      "title": "",
+      "link": "https://www.digikala.com/"
+    },
+    {
+      "id": 2,
+      "name": "full-horizontal",
+      "type": "brand-logo",
+      "imageUrlSvg": "https://nexuhaven-statics-public.nexuhaven.com/digikala-ecommerce-final-project-reactjs/assets/images/brand/full-horizontal.svg",
+      "imageUrlPng": "https://nexuhaven-statics-public.nexuhaven.com/digikala-ecommerce-final-project-reactjs/assets/images/brand/full-horizontal.svg",
+      "imageUrlWebp": "https://nexuhaven-statics-public.nexuhaven.com/digikala-ecommerce-final-project-reactjs/assets/images/brand/full-horizontal.svg",
+      "imageUrlGif": "https://nexuhaven-statics-public.nexuhaven.com/digikala-ecommerce-final-project-reactjs/assets/images/brand/full-horizontal.svg",
+      "imageUrlJPEG": "",
+      " alt": "لوگوی دیجیکالا",
+      " title": "لوگوی دیجیکالا",
+      "link": "https://www.digikala.com/"
+    }
+  ],
+  "header-top-adservice-banners": [
+    {
+      "id": 1,
+      "name": "header-top-adservice-banner-1",
+      "type": "adservice-banner",
+      "imageUrlWebp": "https://nexuhaven-statics-public.nexuhaven.com/digikala-ecommerce-final-project-reactjs/assets/images/header/header-top/adservice-banners/black-friday-tabdeal.gif",
+      "imageUrlPng": "https://nexuhaven-statics-public.nexuhaven.com/digikala-ecommerce-final-project-reactjs/assets/images/header/header-top/adservice-banners/black-friday-tabdeal.gif",
+      "imageUrlGif": "https://nexuhaven-statics-public.nexuhaven.com/digikala-ecommerce-final-project-reactjs/assets/images/header/header-top/adservice-banners/black-friday-tabdeal.gif",
+      "imageUrlJPEG": "",
+      "link": "https://www.digikala.com/",
+      "alt": "گنج قارون💰 بزرگ‌ترین کمپین بلک فرایدی ۱۴۰۴ با صرافی تبدیل و دیجی‌کالا",
+      "title": "گنج قارون💰 بزرگ‌ترین کمپین بلک فرایدی ۱۴۰۴ با صرافی تبدیل و دیجی‌کالا"
+    }
+  ]
+}

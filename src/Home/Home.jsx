@@ -1,17 +1,21 @@
+import FooterComponent from "../Components/Footer/Footer";
 import HeaderComponent from "../Components/Header/Header";
 
 const Home = () => {
   return (
     <>
-      {/* Initialize main-container Website */}
       <div className="main-container w-full h-full min-h-screen relative">
-        {/* Initialize wrapper Website */}
         <div className="wrapper h-full flex flex-col bg-neutral-000 items-center">
           <HeaderComponent />
+          {/* Initialize Main Website */}
+          <main className="main-wrapper w-full h-full min-h-full bg-neutral-000 flex items-center flex-col mt-[200px]">
+            {/* Initialize footer Website */}
+            <FooterComponent />
+            {/* End Initialize footer Website */}
+          </main>
+          {/* End Initialize Main Website */}
         </div>
-        {/* End Initialize wrapper Website */}
       </div>
-      {/* End Initialize main-container Website */}
     </>
   );
 };
