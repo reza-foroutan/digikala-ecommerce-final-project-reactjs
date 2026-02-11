@@ -211,7 +211,23 @@
 
 @theme {
   --font-IRANYekanXFaNum: "IRANYekanXFaNum", "sans-serif";
+  --color-digi-red: #ef394e;
+  --color-digi-red-dark: #d32f2f;
+  --color-digi-gray: #f0f0f1;
+  --color-digi-black: #0c0c0c;
   --color-neutral-000: #fff;
+  --color-neutral-100: #f0f0f1;
+  --color-icon-high-emphasis: #424750;
+  --color-neutral-200: #e0e0e2;
+  --color-button-black: #0c0c0c;
+  --color-neutral-400: #a1a3a8;
+  --color-icon-low-emphasis: #a1a3a8;
+  --spacing-base: 4px;
+  --global-radius: 8px;
+  --color-neutral-700: #3f4064;
+  --color-neutral-600: #62666d;
+  --color-hint-text-caution-rgb: 245, 127, 23;
+  --color-hint-text-caution: #f57f17;
 }
 body {
   font-family: "IRANYekanXFaNum", "sans-serif";
