@@ -13,7 +13,92 @@
     "slug": "/",
     "image": "./src/assets/images/brand/full-horizontal.svg"
   },
-
+  "menuSite": [
+    { "id": 1, "name": "دسته‌بندی کالاها", "slug": "", "link": "" },
+    { "id": 2, "name": "شگفت‌انگیزها", "slug": "", "link": "" },
+    { "id": 3, "name": "سوپرمارکت", "slug": "", "link": "" },
+    { "id": 4, "name": "طلای دیجیتال", "slug": "", "link": "" },
+    { "id": 5, "name": "پرفروش‌ترین‌ها", "slug": "", "link": "" },
+    { "id": 6, "name": "سوالی دارید؟", "slug": "", "link": "" },
+    { "id": 7, "name": "در دیجی‌کالا بفروشید!", "slug": "", "link": "" }
+  ],
+  "headerNavigationShopItems": [
+    {
+      "id": 1,
+      "title": "شگفت‌انگیزها",
+      "icon": "#amazing",
+      "link": "/incredible-offers"
+    },
+    {
+      "id": 2,
+      "title": "سوپرمارکت",
+      "icon": "#fresh",
+      "link": "/fresh"
+    },
+    {
+      "id": 3,
+      "title": "کارت هدیه",
+      "icon": "#gift-card",
+      "link": "/gift-card"
+    },
+    {
+      "id": 4,
+      "title": "پرفروش‌ترین‌ها",
+      "icon": "#best-selling",
+      "link": "/best-selling"
+    },
+    {
+      "id": 5,
+      "title": "تخفیف‌ها و پیشنهادها",
+      "icon": "#promotion",
+      "link": "/promotion-center"
+    },
+    {
+      "id": 6,
+      "title": "سوالی دارید؟",
+      "icon": "",
+      "link": "/faq"
+    },
+    {
+      "id": 8,
+      "title": " در دیجی‌کالا بفروشید!",
+      "icon": "",
+      "link": "/landings/seller-introduction/"
+    }
+  ],
+  "headerCategories": [
+    {
+      "id": 1,
+      "title": "موبایل",
+      "icon": "#mobile-phone",
+      "link": "/category/mobile-phone",
+      "children": [
+        {
+          "id": 101,
+          "title": "لوازم جانبی گوشی",
+          "items": [
+            { "title": "کیف و کاور گوشی", "link": "/category/case" },
+            { "title": "پاوربانک", "link": "/category/powerbank" },
+            { "title": "پایه نگهدارنده", "link": "/category/holder" }
+          ]
+        },
+        {
+          "id": 102,
+          "title": "گوشی موبایل",
+          "items": [
+            { "title": "سامسونگ", "link": "/category/samsung" },
+            { "title": "شیائومی", "link": "/category/xiaomi" },
+            { "title": "اپل", "link": "/category/apple" }
+          ]
+        },
+        {
+          "id": 103,
+          "title": "واقعیت مجازی",
+          "items": [{ "title": "عینک واقعیت مجازی", "link": "/category/vr" }]
+        }
+      ]
+    }
+  ],
   "categories": [],
   "product": [
     {
@@ -116,6 +201,26 @@
       "imageArticle": "",
       "altimageArticleFa": "",
       "altimageArticleEn": ""
+    }
+  ],
+  "mainSlider": [
+    {
+      "id": 1,
+      "image": "/images/slider/main-slide-1.jpg",
+      "title": "جشنواره خرید",
+      "url": "/promotion/1"
+    },
+    {
+      "id": 2,
+      "image": "/images/slider/main-slide-2.jpg",
+      "title": "تخفیف‌های ویژه",
+      "url": "/promotion/2"
+    },
+    {
+      "id": 3,
+      "image": "/images/slider/main-slide-3.jpg",
+      "title": "روز موبایل",
+      "url": "/category/mobile"
     }
   ]
 }

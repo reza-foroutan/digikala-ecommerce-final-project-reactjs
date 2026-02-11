@@ -1,3 +1,4 @@
+import HeaderBottomDesktopHeaderNavigation from "./HeaderBottom/HeaderBottomDesktopHeaderNavigation/HeaderBottomDesktopHeaderNavigation";
 import MainHeaderMiddleComponent from "./MainHeaderMiddle/MainHeaderMiddle";
 import MainHeaderTopComponent from "./MainHeaderTopComponent/MainHeaderTopComponent";
 import styles from "./styles/header.module.css";
@@ -17,7 +18,9 @@ const HeaderComponent = () => {
           {/* Initialize main header middle Website */}
           <MainHeaderMiddleComponent />
           {/* End Initialize main header middle Website */}
-          
+          {/* Initialize Main Header Bottom Website */}
+          <HeaderBottomDesktopHeaderNavigation />
+          {/* End Initialize Main Header Bottom Website */}
         </div>
         {/* End Initialize header Website */}
       </div>

@@ -12,8 +12,9 @@ const HeaderMiddleCartBox = () => {
           {/* استفاده از کامپوننت آیکون جدید */}
           <CartIcon className="w-6 h-6 text-gray-700 group-hover:text-black transition-colors" />
 
-          {/* (اختیاری) اگر بخواهید شمارنده تعداد کالا را اضافه کنید، اینجا جای مناسبی است */}
-          {/* <span className="absolute -top-1 -right-1 bg-red-500 text-white text-[10px] w-4 h-4 rounded-full flex items-center justify-center">0</span> */}
+          <span className="w-[20px] h-[20px] absolute -top-2 font-bold -right-1 bg-digi-red text-white text-[16px] w-4 h-4 rounded-full flex items-center justify-center">
+            0
+          </span>
         </div>
       </Link>
     </div>
