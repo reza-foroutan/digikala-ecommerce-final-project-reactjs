@@ -1,9 +1,15 @@
-import MainHeroSlider from "@/components/Home/MainHeroSlider";
-
 const HomePage = () => {
   return (
     <>
-      <MainHeroSlider />
+      <div>
+        <div>
+          <div>
+            <h1>
+              this page is <span className={`capitalize font-black`}>home</span>
+            </h1>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
