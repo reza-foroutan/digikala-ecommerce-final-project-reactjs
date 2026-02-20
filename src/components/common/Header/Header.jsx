@@ -1,30 +1,32 @@
 import HeaderBottomComponent from "./headerBottom/HeaderBottom";
 import HeaderMiddleComponent from "./headerMiddle/HeaderMiddle";
-import MainHeaderTopComponent from "./headerTop/MainHeaderTop";
-import styles from "./styles/header.module.css";
+import HeaderTopComponent from "./headerTop/HeaderTop";
+import styles from "./styles/styleHeader.module.css";
 
 const HeaderComponent = () => {
   return (
     <>
+      {/* Initialize main header Website */}
       <div
-        className={`${styles.mainHeader} fixed w-full h-42 pr-0 box-border top-0 left-0 bg-neutral-000 z-4 shadow`}
+        className={`${styles.mainHeader} fixed w-full h-[168px] pr-0 box-border top-0 left-0 bg-neutral-000 z-4 shadow`}
       >
         {/* Initialize header Website */}
-        <div
-          className={`${styles.Header} w-full h-42 flex flex-col bg-neutral-000 relative`}
+        <header
+          className={`${styles.header} w-full h-[168px] flex flex-col bg-neutral-000 relative`}
         >
           {/* Initialize header top Website */}
-          <MainHeaderTopComponent />
+          <HeaderTopComponent />
           {/* End Initialize header top Website */}
           {/* Initialize main header middle Website */}
           <HeaderMiddleComponent />
           {/* End Initialize main header middle Website */}
-          {/* Initialize main header bottom Website */}
           <HeaderBottomComponent />
-          {/* End Initialize main header bottom Website */}
-        </div>
+          {/* Initialize Main Header Bottom Website */}
+          {/* End Initialize Main Header Bottom Website */}
+        </header>
         {/* End Initialize header Website */}
       </div>
+      {/* End Initialize main header Website */}
     </>
   );
 };

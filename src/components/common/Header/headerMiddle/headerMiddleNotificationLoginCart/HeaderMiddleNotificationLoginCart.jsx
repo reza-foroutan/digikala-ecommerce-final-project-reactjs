@@ -1,19 +1,25 @@
-import HeaderMiddleCart from "../headerMiddleCart/HeaderMiddleCart";
-import HeaderMiddleLogin from "../headerMiddleLogin/HeaderMiddleLogin";
-import HeaderMiddleNotification from "../headerMiddleNotification/HeaderMiddleNotification";
-
-const HeaderMiddleNotificationLoginCart = () => {
+import HeaderMiddleCartBoxComponent from "./headerMiddleCartBox/HeaderMiddleCartBox";
+import HeaderMiddleLoginComponent from "./headerMiddleLogin/HeaderMiddleLogin";
+import HeaderMiddleNotificationComponent from "./headerMiddleNotification/HeaderMiddleNotification";
+import styles from "./styles/styleHeaderMiddleNotificationLoginCart.module.css";
+const HeaderMiddleNotificationLoginCartComponent = () => {
   return (
     <>
-      <section className="w-[20%] h-11 notification-box-login-box-cart-box">
-        <div className="notification-box-login-box-cart-box-wrapper w-full h-11 flex justify-start items-center">
-          <HeaderMiddleNotification />
+      <section
+        className={`${styles.notificationBoxLoginBoxCartBox} w-[20%] flex justify-center items-center`}
+      >
+        <div
+          className={`${styles.notificationBoxLoginBoxCartBoxWrapper} w-full h-11 flex justify-start items-center`}
+        >
+          {/* Initialize header middle notification box Website */}
+          <HeaderMiddleNotificationComponent />
+          {/* End Initialize header middle notification box Website */}
           {/* Initialize header middle login box Website */}
-          <HeaderMiddleLogin />
+          <HeaderMiddleLoginComponent />
           {/* End Initialize header middle login box Website */}
-          <span className="header-middle-divider block bg-neutral-200 mx-3 ml-4 w-[2px] h-6"></span>
+          <span className="header-middle-divider block bg-neutral-200 mx-3 w-[2px] h-7"></span>
           {/* Initialize header middle cart box Website */}
-          <HeaderMiddleCart />
+          <HeaderMiddleCartBoxComponent />
           {/* End Initialize header middle cart box Website */}
         </div>
       </section>
@@ -21,4 +27,4 @@ const HeaderMiddleNotificationLoginCart = () => {
   );
 };
 
-export default HeaderMiddleNotificationLoginCart;
+export default HeaderMiddleNotificationLoginCartComponent;

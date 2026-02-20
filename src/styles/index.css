@@ -1,6 +1,7 @@
 @import url("./fonts/fa/fontIranYekan.css");
 @import "tailwindcss";
-@plugin "daisyui";
+
+
 :root {
   --window-inner-height: 404px;
 }

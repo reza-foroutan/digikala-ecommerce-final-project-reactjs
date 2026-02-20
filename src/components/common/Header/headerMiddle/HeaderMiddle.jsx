@@ -1,12 +1,11 @@
-import HeaderMiddleLogo from "./headerMiddleLogo/headerMiddleLogo";
-import HeaderMiddleNotificationLoginCart from "./headerMiddleNotificationLoginCart/HeaderMiddleNotificationLoginCart";
-import HeaderMiddleSearch from "./headerMiddleSearch/HeaderMiddleSearch";
-import styles from "./styles/styleHeaderMiddleComponent.module.css";
+import HeaderMiddleLogoSearchComponent from "./headerMiddleLogoSearch/HeaderMiddleLogoSearch";
+import HeaderMiddleNotificationLoginCartComponent from "./headerMiddleNotificationLoginCart/HeaderMiddleNotificationLoginCart";
+import styles from "./styles/styleHeaderMiddle.module.css";
 const HeaderMiddleComponent = () => {
   return (
     <>
       <div
-        className={`${styles.mainHeaderMiddle} w-full h-17 bg-neutral-000  relative z-5`}
+        className={`${styles.mainHeaderMiddle} w-full h-[68px] bg-neutral-000 relative z-5`}
       >
         {/* Initialize header middle Website */}
         <div
@@ -14,21 +13,13 @@ const HeaderMiddleComponent = () => {
         >
           {/* Initialize header middle wrpper Website */}
           <div
-            className={`w-full py-3 px-3 flex relative z-2 box-border justify-center items-center`}
+            className={`${styles.headerMiddleWrapper} w-full py-3 flex relative z-2 box-border`}
           >
-            {/* Initialize header middle log box search Website */}
-            <section className="h-[44px] flex flex-1 items-center grow">
-              {/* Initialize header middle logo box Website */}
-              <HeaderMiddleLogo />
-              {/* End Initialize header middle logo box Website */}
-
-              {/* Initialize header middle search box Website */}
-              <HeaderMiddleSearch />
-              {/* End Initialize header middle search box Website */}
-            </section>
-            {/* End Initialize header middle log box search Website */}
+            {/* Initialize header middle logo box search Website */}
+            <HeaderMiddleLogoSearchComponent />
+            {/* End Initialize header middle logo box search Website */}
             {/* Initialize header middle notification box login box cart box Website */}
-            <HeaderMiddleNotificationLoginCart />
+            <HeaderMiddleNotificationLoginCartComponent />
             {/* End Initialize header middle notification box login box cart box Website */}
           </div>
           {/* End Initialize header middle wrpper Website */}

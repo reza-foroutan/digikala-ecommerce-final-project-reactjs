@@ -1,17 +1,15 @@
-const HomePage = () => {
+const Home = () => {
   return (
     <>
       <div>
         <div>
-          <div>
-            <h1>
-              this page is <span className={`capitalize font-black`}>home</span>
-            </h1>
-          </div>
+          <h1>
+            this page is <span>home</span>
+          </h1>
         </div>
       </div>
     </>
   );
 };
 
-export default HomePage;
+export default Home;
