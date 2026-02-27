@@ -1,4 +1,4 @@
-import SvgSprite from "../components/components/SvgSprite";
+import SvgSprite from "../components/icons/svg/SvgSprite";
 import AppRouter from "../routes";
 
 const App = () => {

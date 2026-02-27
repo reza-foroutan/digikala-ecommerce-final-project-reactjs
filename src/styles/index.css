@@ -1,7 +1,6 @@
 @import url("./fonts/fa/fontIranYekan.css");
 @import "tailwindcss";
 
-
 :root {
   --window-inner-height: 404px;
 }

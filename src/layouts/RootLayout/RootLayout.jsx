@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import styles from "./styles/styleRootLayout.module.css";
 import HeaderComponent from "../../components/common/header/Header";
+import FooterComponent from "../../components/common/footer/Footer.jsx";
 
 const RootLayout = () => {
   return (
@@ -21,6 +22,7 @@ const RootLayout = () => {
             className={`${styles.mainWrapper} w-full h-full min-h-full bg-neutral-000 flex items-center flex-col mt-44!`}
           >
             <Outlet />
+              <FooterComponent/>
           </main>
           {/* End Initialize Main Website */}
         </div>

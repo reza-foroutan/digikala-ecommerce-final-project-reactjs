@@ -1,8 +1,10 @@
+import { NavLink } from "react-router-dom";
+
 const HeaderMiddleCartBoxComponent = () => {
   return (
     <>
       <div className="header-middle-cart-box w-10 h-10 flex justify-center items-center">
-        <a
+        <NavLink
           href="./checkout/cart/"
           className="cart-box-link w-10 h-10 flex justify-center items-center"
         >
@@ -11,7 +13,7 @@ const HeaderMiddleCartBoxComponent = () => {
               <use href="#cartOff"></use>
             </svg>
           </div>
-        </a>
+        </NavLink>
       </div>
     </>
   );

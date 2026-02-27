@@ -8,7 +8,7 @@ const HeaderMiddleLoginComponent = () => {
         className={`${styles.headerMiddleLoginBox} w-[135px] h-10 flex justify-center items-center mx-4!`}
       >
         <NavLink
-          to={"/users/login/?backUrl=/"}
+          to={"/auth/login"}
           className={`${styles.loginBoxLink} font-IRANYekanXFaNum font-black`}
         >
           <div className={`${styles.loginBoxLinkWrapper} flex justify-center`}>
